@@ -1,0 +1,82 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #639aa9;
+  margin: 0;
+  background-image: url('E:\MERN stack\pizzaorder\pizza\src\the-pizza-place-jaitpur-delhi-pizza-outlets-wchn18vggy.webp');
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 50px;
+  background-color: #6690b7;
+}
+
+div {
+  background-color: #b95ea1;
+  padding: 25px 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+fieldset {
+  border: 1px solid #991010;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+fieldset label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #28a745;
+  color: rgb(255, 30, 0);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+h3 {
+  color: #444;
+}
+
+p {
+  margin: 6px 0;
+}
